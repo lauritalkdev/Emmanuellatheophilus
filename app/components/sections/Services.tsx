@@ -11,16 +11,16 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="bg-[#161614] text-[#F7F4EF] px-14 py-28">
+    <section id="services" className="bg-[#161614] text-[#F7F4EF] px-6 md:px-14 py-20">
       <div className="flex items-center gap-4 mb-6">
         <div className="w-7 h-[1px] bg-[#B8924A]" />
         <span className="text-[#B8924A] text-[10px] font-semibold tracking-[0.26em] uppercase">What I Offer</span>
       </div>
-      <h2 className="font-serif text-6xl font-light leading-tight mb-16">Eight ways to turn your voice <span className="italic text-[#B8924A]">into authority.</span></h2>
-      <div className="grid grid-cols-3 gap-[1px] bg-[#B8924A]/20">
+      <h2 className="font-serif text-4xl md:text-6xl font-light leading-tight mb-12">Eight ways to turn your voice <span className="italic text-[#B8924A]">into authority.</span></h2>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-[1px] md:bg-[#B8924A]/20">
         {services.map((s) => (
-          <div key={s.num} className="bg-[#0E0E0E] p-9 hover:bg-[#111110] transition-colors duration-300 group">
-            <div className="text-[#B8924A] text-[11px] tracking-[0.22em] mb-6 opacity-55">{s.num}</div>
+          <div key={s.num} className="bg-[#0E0E0E] p-8 border border-[#B8924A]/20 md:border-0 rounded-sm md:rounded-none hover:bg-[#111110] transition-colors duration-300">
+            <div className="text-[#B8924A] text-[11px] tracking-[0.22em] mb-5 opacity-55">{s.num}</div>
             <div className="font-serif text-xl font-semibold mb-2">{s.name}</div>
             <div className="font-serif text-sm italic text-[#D4AD72] mb-4">{s.sub}</div>
             <div className="text-sm font-light text-[#F7F4EF]/50 leading-relaxed">{s.desc}</div>

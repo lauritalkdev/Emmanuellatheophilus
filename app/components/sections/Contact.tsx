@@ -1,24 +1,24 @@
 export default function Contact() {
   return (
-    <section id="contact" className="bg-[#0E0E0E] text-[#F7F4EF] px-14 py-28 border-t border-[#B8924A]/20">
+    <section id="contact" className="bg-[#0E0E0E] text-[#F7F4EF] px-6 md:px-14 py-20 border-t border-[#B8924A]/20">
       <div className="flex items-center gap-4 mb-6">
         <div className="w-7 h-[1px] bg-[#B8924A]" />
         <span className="text-[#B8924A] text-[10px] font-semibold tracking-[0.26em] uppercase">Let's Talk</span>
       </div>
-      <h2 className="font-serif text-6xl font-light leading-tight mb-16">Serious about building a brand that <span className="italic text-[#B8924A]">leads its space?</span></h2>
-      <div className="grid grid-cols-2 gap-20">
+      <h2 className="font-serif text-4xl md:text-6xl font-light leading-tight mb-12">Serious about building a brand that <span className="italic text-[#B8924A]">leads its space?</span></h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20">
         <div>
           <p className="text-base font-light text-[#F7F4EF]/60 leading-relaxed mb-10">If you are tired of being the best-kept secret in your industry, this is where it changes. Reach out through any of the channels below and let's explore what's possible for your brand.</p>
           <div className="flex flex-col gap-4 mb-10">
             <a href="mailto:emmanuellatheophilus1@gmail.com" className="flex items-center gap-4 p-5 bg-[#161614] border border-[#B8924A]/20 hover:border-[#B8924A] rounded-sm transition-colors duration-200">
-              <div className="w-10 h-10 rounded-full border border-[#B8924A]/30 flex items-center justify-center text-base">✉</div>
+              <div className="w-10 h-10 rounded-full border border-[#B8924A]/30 flex items-center justify-center text-base flex-shrink-0">✉</div>
               <div>
                 <span className="block text-[10px] font-semibold tracking-[0.18em] uppercase text-[#B8924A] mb-1">Email</span>
-                <span className="text-sm font-light text-[#F7F4EF]/70">emmanuellatheophilus1@gmail.com</span>
+                <span className="text-sm font-light text-[#F7F4EF]/70 break-all">emmanuellatheophilus1@gmail.com</span>
               </div>
             </a>
             <a href="https://wa.me/2348100856025" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-5 bg-[#161614] border border-[#B8924A]/20 hover:border-[#B8924A] rounded-sm transition-colors duration-200">
-              <div className="w-10 h-10 rounded-full border border-[#B8924A]/30 flex items-center justify-center text-base">💬</div>
+              <div className="w-10 h-10 rounded-full border border-[#B8924A]/30 flex items-center justify-center text-base flex-shrink-0">💬</div>
               <div>
                 <span className="block text-[10px] font-semibold tracking-[0.18em] uppercase text-[#B8924A] mb-1">WhatsApp</span>
                 <span className="text-sm font-light text-[#F7F4EF]/70">+234 810 085 6025</span>
@@ -30,8 +30,8 @@ export default function Contact() {
             <a href="https://x.com/emmanuellatheo" target="_blank" rel="noreferrer" className="border border-[#B8924A]/20 hover:border-[#B8924A] hover:text-[#B8924A] text-[#F7F4EF] text-xs font-semibold tracking-widest uppercase px-5 py-3 rounded-sm transition-colors duration-200">Twitter / X</a>
           </div>
         </div>
-        <form action={`mailto:emmanuellatheophilus1@gmail.com`} method="get" encType="text/plain" className="flex flex-col gap-5">
-          <div className="grid grid-cols-2 gap-4">
+        <form action="mailto:emmanuellatheophilus1@gmail.com" method="get" encType="text/plain" className="flex flex-col gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex flex-col gap-2">
               <label className="text-[10px] font-semibold tracking-[0.2em] uppercase text-[#B8924A]">Full Name</label>
               <input type="text" placeholder="Your name" className="bg-[#161614] border border-[#B8924A]/20 focus:border-[#B8924A] text-[#F7F4EF] placeholder-[#7A7570] px-4 py-3 rounded-sm text-sm font-light outline-none transition-colors duration-200" />
