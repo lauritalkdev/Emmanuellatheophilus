@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <section id="about" className="bg-[#F7F4EF] text-[#0E0E0E] px-6 md:px-14 py-20">
@@ -7,10 +9,8 @@ export default function About() {
       </div>
       <h2 className="font-serif text-4xl md:text-6xl font-light leading-tight mb-12">Built for the people who are good <span className="italic text-[#B8924A]">and still invisible.</span></h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20">
-        <div>
-          <div className="w-full aspect-[4/5] bg-[#EDE9E1] rounded-sm flex items-center justify-center">
-            <span className="font-serif text-xl italic text-[#7A7570]">Emmanuella Theophilus</span>
-          </div>
+        <div className="w-full aspect-[4/5] relative rounded-sm overflow-hidden">
+          <Image src="/images/emmanuella.jpeg" alt="Emmanuella Theophilus" fill className="object-cover object-top" />
         </div>
         <div>
           <blockquote className="font-serif text-xl md:text-2xl font-light italic text-[#0E0E0E] border-l-2 border-[#B8924A] pl-6 mb-8">There is a kind of frustration that comes from knowing you are good at what you do, and watching less experienced people get the recognition you deserve.</blockquote>
