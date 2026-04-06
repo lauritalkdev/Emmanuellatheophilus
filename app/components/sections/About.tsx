@@ -9,7 +9,7 @@ export default function About() {
       </div>
       <h2 className="font-serif text-4xl md:text-6xl font-light leading-tight mb-12">Built for the people who are good <span className="italic text-[#B8924A]">and still invisible.</span></h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20">
-        <div className="w-full aspect-[4/5] relative rounded-sm overflow-hidden">
+        <div className="w-full h-[500px] relative rounded-sm overflow-hidden">
           <Image src="/images/emmanuella.jpeg" alt="Emmanuella Theophilus" fill className="object-cover object-top" />
         </div>
         <div>
