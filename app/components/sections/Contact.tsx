@@ -21,7 +21,7 @@ export default function Contact() {
               <div className="w-10 h-10 rounded-full border border-[#B8924A]/30 flex items-center justify-center text-base flex-shrink-0">💬</div>
               <div>
                 <span className="block text-[10px] font-semibold tracking-[0.18em] uppercase text-[#B8924A] mb-1">WhatsApp</span>
-                <span className="text-sm font-light text-[#F7F4EF]/70">+234 810 085 6025</span>
+                <span className="text-sm font-light text-[#F7F4EF]/70">click to chat via whatsapp</span>
               </div>
             </a>
           </div>
