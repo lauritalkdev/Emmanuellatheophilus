@@ -1,9 +1,9 @@
 const testimonials = [
-  { quote: "The last post you sent me got me two leads I am working on. Working with you has helped my brand a lot. Thank you for being the best.", name: "Client A", tag: "Founder", initials: "A", wide: true },
-  { quote: "You did not tell me you are this good with writing. See how you just captured my mind in my own voice. I highly recommend you!", name: "Client B", tag: "Professional", initials: "B", wide: false },
-  { quote: "The writing was so good. You understood what I wanted so well. I promise to always recommend you.", name: "Client C", tag: "Brand Owner", initials: "C", wide: false },
-  { quote: "You make working with you so so easy. Thank you for not stressing me and also helping out when my mind seems blank. The world needs more of you.", name: "Client D", tag: "Executive", initials: "D", wide: true },
-  { quote: "You are always intentional in anything you set your mind to do. Keep soaring.", name: "Client E", tag: "SME Owner", initials: "E", wide: false },
+  { quote: "The last post you sent me got me two leads I am working on. Working with you has helped my brand a lot. Thank you for being the best.", name: "Solomon T", tag: "Founder", initials: "A", wide: true },
+  { quote: "You did not tell me you are this good with writing. See how you just captured my mind in my own voice. I highly recommend you!", name: "Ijeoma O", tag: "Professional", initials: "B", wide: false },
+  { quote: "The writing was so good. You understood what I wanted so well. I promise to always recommend you.", name: "Chukwuebuka N", tag: "Brand Owner", initials: "C", wide: false },
+  { quote: "You make working with you so so easy. Thank you for not stressing me and also helping out when my mind seems blank. The world needs more of you.", name: "Godwill A", tag: "Executive", initials: "D", wide: true },
+  { quote: "You are always intentional in anything you set your mind to do. Keep soaring.", name: "Onyenakazi C", tag: "SME Owner", initials: "E", wide: false },
 ];
 
 export default function Testimonials() {

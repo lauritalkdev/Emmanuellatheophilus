@@ -65,7 +65,10 @@ export default function Contact() {
             <label className="text-[10px] font-semibold tracking-[0.2em] uppercase text-[#B8924A]">Tell Me About Your Brand</label>
             <textarea rows={4} placeholder="What challenge are you solving? What does authority look like for you?" className="bg-[#161614] border border-[#B8924A]/20 focus:border-[#B8924A] text-[#F7F4EF] placeholder-[#7A7570] px-4 py-3 rounded-sm text-sm font-light outline-none transition-colors duration-200 resize-none" />
           </div>
-          <button type="submit" className="self-start bg-[#B8924A] hover:bg-[#D4AD72] text-[#0E0E0E] text-xs font-bold tracking-widest uppercase px-8 py-4 rounded-sm transition-colors duration-200">Send Enquiry</button>
+          <div className="flex items-center gap-4 flex-wrap">
+            <button type="submit" className="bg-[#B8924A] hover:bg-[#D4AD72] text-[#0E0E0E] text-xs font-bold tracking-widest uppercase px-8 py-4 rounded-sm transition-colors duration-200">Send Enquiry</button>
+            <a href="https://calendly.com/emmanuellatheophilus1/free-30-min-content-strategy-call" target="_blank" rel="noreferrer" className="border border-[#B8924A] hover:bg-[#B8924A] hover:text-[#0E0E0E] text-[#B8924A] text-xs font-bold tracking-widest uppercase px-8 py-4 rounded-sm transition-colors duration-200">Book a Call</a>
+          </div>
         </form>
       </div>
     </section>
