@@ -45,6 +45,7 @@ export default function Navbar() {
           <li><a href="#services" className="text-[#F7F4EF] opacity-65 hover:text-[#B8924A] text-sm tracking-wider transition-colors duration-200">Services</a></li>
           <li><a href="#packages" className="text-[#F7F4EF] opacity-65 hover:text-[#B8924A] text-sm tracking-wider transition-colors duration-200">Packages</a></li>
           <li><a href="#results" className="text-[#F7F4EF] opacity-65 hover:text-[#B8924A] text-sm tracking-wider transition-colors duration-200">Results</a></li>
+          <li><a href="/portfolio" className="text-[#F7F4EF] opacity-65 hover:text-[#B8924A] text-sm tracking-wider transition-colors duration-200">Portfolio</a></li>
           <li>
             <a href="#contact" className="bg-[#B8924A] hover:bg-[#D4AD72] text-[#0E0E0E] text-xs font-bold tracking-widest uppercase px-6 py-3 rounded-sm transition-colors duration-200">
               Book a Call
