@@ -66,7 +66,7 @@ export default function Navbar() {
           <a href="#services" onClick={() => setMenuOpen(false)} className="font-serif text-4xl font-light text-[#F7F4EF] hover:text-[#B8924A] transition-colors duration-200">Services</a>
           <a href="#packages" onClick={() => setMenuOpen(false)} className="font-serif text-4xl font-light text-[#F7F4EF] hover:text-[#B8924A] transition-colors duration-200">Packages</a>
           <a href="#results" onClick={() => setMenuOpen(false)} className="font-serif text-4xl font-light text-[#F7F4EF] hover:text-[#B8924A] transition-colors duration-200">Results</a>
-          <a href="/portfolio" onClick={() => setMenuOpen(false)} className="font-serif text-4xl font-light text-[#F7F4EF] hover:text-[#B8924A] transition-colors duration-200">Portfolio</a>
+          <a href="/portfolio" onClick={() => setMenuOpen(false)} className="font-serif text-4xl font-light text-[#F7F4EF] hover:text-[#B8924A] transition-colors duration-200">Portfolio</a>67890-[=]
           <a href="#contact" onClick={() => setMenuOpen(false)} className="mt-4 bg-[#B8924A] hover:bg-[#D4AD72] text-[#0E0E0E] text-sm font-bold tracking-widest uppercase px-10 py-4 rounded-sm transition-colors duration-200">Book a Call</a>
         </div>
       )}
